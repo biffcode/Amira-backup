@@ -1,0 +1,13 @@
+<svg width="500" height="350" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#e8eef4"/>
+  <rect x="80" y="150" width="140" height="140" fill="#c4d4e4"/>
+  <polygon points="80,150 150,90 220,150" fill="#8fa4b8"/>
+  <rect x="280" y="120" width="140" height="170" fill="#c4d4e4"/>
+  <polygon points="280,120 350,60 420,120" fill="#8fa4b8"/>
+  <rect x="100" y="200" width="30" height="40" fill="#a0b4c8"/>
+  <rect x="150" y="200" width="30" height="40" fill="#a0b4c8"/>
+  <rect x="300" y="160" width="30" height="40" fill="#a0b4c8"/>
+  <rect x="350" y="160" width="30" height="40" fill="#a0b4c8"/>
+  <text x="50%" y="40%" font-family="Arial" font-size="20" fill="#1e3a5f" text-anchor="middle">Fund Image</text>
+  <text x="50%" y="48%" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">500 x 350</text>
+</svg>

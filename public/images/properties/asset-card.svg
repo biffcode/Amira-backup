@@ -1,0 +1,11 @@
+<svg width="314" height="447" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#e8eef4"/>
+  <rect x="80" y="150" width="150" height="200" fill="#c4d4e4"/>
+  <rect x="100" y="180" width="40" height="50" fill="#a0b4c8"/>
+  <rect x="160" y="180" width="40" height="50" fill="#a0b4c8"/>
+  <rect x="100" y="260" width="40" height="50" fill="#a0b4c8"/>
+  <rect x="160" y="260" width="40" height="50" fill="#a0b4c8"/>
+  <polygon points="80,150 155,80 230,150" fill="#8fa4b8"/>
+  <text x="50%" y="45%" font-family="Arial" font-size="18" fill="#1e3a5f" text-anchor="middle">Asset Card</text>
+  <text x="50%" y="52%" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">314 x 447</text>
+</svg>
