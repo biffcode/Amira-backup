@@ -199,7 +199,7 @@ Construyendo Riqueza: Nuestra filosofía se centra en generar riqueza a través 
                   <p className="text-black text-xl font-normal font-roboto leading-8 mb-6">
                     {item.description}
                   </p>
-                  <button className="btn-primary">{t('Learn More', 'Saber Más')}</button>
+                  <Link href="/philosophy" className="btn-primary">{t('Learn More', 'Saber Más')}</Link>
                 </div>
               </div>
             ))}
@@ -269,13 +269,7 @@ Construyendo Riqueza: Nuestra filosofía se centra en generar riqueza a través 
 
           {/* Navigation buttons - round arrows */}
           <div className="flex justify-center items-center gap-4 mt-12">
-            <button className="w-9 h-9 bg-blue-900 rounded-full flex items-center justify-center text-white hover:bg-blue-800 transition-colors">
-              ←
-            </button>
-            <button className="btn-primary">{t('Show More', 'Ver Más')}</button>
-            <button className="w-9 h-9 bg-blue-900 rounded-full flex items-center justify-center text-white hover:bg-blue-800 transition-colors">
-              →
-            </button>
+            <Link href="/living-funds" className="btn-primary">{t('Show More', 'Ver Más')}</Link>
           </div>
         </div>
       </section>

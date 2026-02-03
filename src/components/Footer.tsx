@@ -15,7 +15,7 @@ export default function Footer() {
       { label: t('Assets', 'Activos'), href: '/living-funds' },
       { label: t('About us', 'Nosotros'), href: '/about' },
       { label: t('Investment Strategies', 'Estrategias de Inversión'), href: '/philosophy' },
-      { label: t('Real Estate Trends', 'Tendencias Inmobiliarias'), href: '#' },
+      { label: t('Real Estate Trends', 'Tendencias Inmobiliarias'), href: '/press-room' },
       { label: t('Contact', 'Contacto'), href: '/contact' },
     ],
     other: [

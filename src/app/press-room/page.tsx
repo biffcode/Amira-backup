@@ -114,7 +114,10 @@ export default function PressRoomPage() {
                 <p className="text-stone-700 text-lg font-normal font-roboto leading-7">
                   {release.summary}
                 </p>
-                <button className="mt-4 text-blue-900 font-roboto hover:underline">
+                <button
+                  onClick={() => alert(t('Full article coming soon!', '¡Artículo completo próximamente!'))}
+                  className="mt-4 text-blue-900 font-roboto hover:underline"
+                >
                   {t('Read more', 'Leer más')} →
                 </button>
               </div>
@@ -136,7 +139,10 @@ export default function PressRoomPage() {
                   'Descargue nuestro kit de medios que contiene logotipos de la empresa, fotos ejecutivas, hojas informativas y guías de marca.'
                 )}
               </p>
-              <button className="bg-white text-blue-900 px-8 py-3 rounded-full font-roboto hover:bg-gray-100 transition-colors">
+              <button
+                onClick={() => alert(t('Media kit coming soon!', '¡Kit de medios próximamente!'))}
+                className="bg-white text-blue-900 px-8 py-3 rounded-full font-roboto hover:bg-gray-100 transition-colors"
+              >
                 {t('Download Media Kit', 'Descargar Kit de Medios')}
               </button>
             </div>
@@ -174,9 +180,16 @@ export default function PressRoomPage() {
               'Reciba las últimas noticias y comunicados de prensa directamente en su bandeja de entrada.'
             )}
           </p>
-          <form className="flex flex-col sm:flex-row gap-4 justify-center">
+          <form
+            className="flex flex-col sm:flex-row gap-4 justify-center"
+            onSubmit={(e) => {
+              e.preventDefault();
+              alert(t('Thank you for subscribing!', '¡Gracias por suscribirse!'));
+            }}
+          >
             <input
               type="email"
+              required
               placeholder={t('Enter your email address', 'Ingrese su correo electrónico')}
               className="px-6 py-3 rounded-full border border-gray-300 focus:outline-none focus:border-blue-900 flex-1 max-w-md"
             />

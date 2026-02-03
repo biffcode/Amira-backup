@@ -46,7 +46,7 @@ export default function AboutPage() {
   const teamMembers = [
     { name: 'Juan de la Peña', role: t('CEO & Founder', 'CEO y Fundador'), image: '/images/team/juan-de-la-pena.png' },
     { name: 'Sofia Vega de Seoane', role: t('Managing Director', 'Directora General'), image: '/images/team/sofia-vega.png' },
-    { name: 'Maguel Angel Gracia Morilla', role: t('CEO & Founder', 'CEO y Fundador'), image: '/images/team/maguel-angel.jpg' },
+    { name: 'Miguel Angel Garcia Morilla', role: t('CEO & Founder', 'CEO y Fundador'), image: '/images/team/maguel-angel.jpg' },
   ];
 
   const historyTimeline = [
